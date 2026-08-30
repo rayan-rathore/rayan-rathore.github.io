@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Building a Json Config Formatter Tool (𝐉𝐒𝐎𝐍 𝐢𝐧𝐬𝐩𝐞𝐜𝐭𝐨𝐫/𝐂𝐋𝐈 𝐭𝐨𝐨𝐥).  in Python: What I Learned"
-date: 2026-08-30
+title: "Building a JSON Inspector CLI in Python: What I Learned"
+date: 2026-08-29
 ---
 
 I've been learning Python by building projects rather than only following tutorials.
