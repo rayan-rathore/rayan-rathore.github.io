@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-architect
 title: Rayan Rathore
 description: Documenting my Python journey from scratch.
 google_analytics: G-S90VEZSYQF
+permalink: /:title/
