@@ -7,5 +7,7 @@ title: Home
 
 This is my personal domain where I document my code, my mistakes, and my progress transitioning from a beginner to a developer.
 
-## Latest Article
-Check out my latest write-up in the repository files below!
+## Articles
+{% for post in site.posts %}
+* **[{{ post.title }}]({{ post.url }})** — {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}
