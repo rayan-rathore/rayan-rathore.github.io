@@ -3,7 +3,7 @@ layout: default
 title: Rayan Rathore
 ---
 
-### [Dashboard](index.html) &bull; [About Me](about.html) &bull; [Projects](projects.html) &bull; [Contact](contact.html)
+### [Dashboard](/) &bull; [About Me](/about/) &bull; [Projects](/projects/) &bull; [Contact](/contact/)
 
 ---
 
