@@ -10,8 +10,18 @@ title: Contact
 ## $ nc -zv secure.channel 443
 
 
-Looking to connect regarding cloud security roles, engineering collaborations, or open-source research? Reach out through the channels below:
+Have a question, want to discuss something I've built, or just want to say hello?
 
-* **Email:** [your-email@example.com](mailto:your-email@example.com)
-* **LinkedIn:** [/in/rayan-rathore](https://linkedin.com)
+I'd be happy to hear from you.
+
+You can reach me at:
+
+* **LinkedIn:** [/in/rayan-rathore]([https://linkedin.com](https://www.linkedin.com/in/rayan-rathore-098044372/))
 * **GitHub:** [rayan-rathore](https://github.com)
+
+If you've found something on this site that's useful, have a suggestion, or simply want to share what you're learning yourself, feel free to reach out.
+
+I may not always respond immediately, but I'll do my best to get back to you.
+
+
+
