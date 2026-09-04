@@ -3,7 +3,12 @@ layout: default
 title: Rayan Rathore
 ---
 
-### [Dashboard](/) &bull; [About Me](/about/) &bull; [Projects](/projects/) &bull; [Contact](/contact/)
+<div class="nav-container">
+  <a href="/">Dashboard</a>
+  <a href="/about/">About Me</a>
+  <a href="/projects/">Projects</a>
+  <a href="/contact/">Contact</a>
+</div>
 
 ---
 
