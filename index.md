@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dashboard
+title: Rayan Rathore
 ---
 
 ### [Dashboard](index.html) &bull; [About Me](about.html) &bull; [Projects](projects.html) &bull; [Contact](contact.html)
