@@ -1,12 +1,23 @@
 <style>
-  /* Hide the top GitHub banner button block completely */
-  .downloads, .footer .owner, .footer .creators {
-    display: none !important;
+  /* Shrink the massive Cayman header box */
+  .page-header {
+    padding: 1.5rem 2rem !important; /* Drastically reduces top and bottom empty space */
+  }
+
+  /* Make the header titles slightly smaller to match the compact bar */
+  .project-name {
+    font-size: 2.2rem !important;
+    margin-bottom: 0.2rem !important;
   }
   
-  /* Clean up spacing at the bottom of the page */
-  footer {
-    padding-top: 20px;
-    border-top: 1px dashed #333;
+  .project-tagline {
+    font-size: 1rem !important;
+    margin-bottom: 0 !important;
+    opacity: 0.85;
+  }
+
+  /* Hide the default automated GitHub Pages footer notice */
+  .site-footer-credits {
+    display: none !important;
   }
 </style>
