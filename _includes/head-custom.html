@@ -1,10 +1,8 @@
 <style>
-  /* Shrink the massive Cayman header box */
+  /* Global Layout Styles (Applies to all devices) */
   .page-header {
     padding: 1.5rem 2rem !important;
   }
-
-  /* Make header titles smaller on mobile */
   .project-name {
     font-size: 2rem !important;
     margin-bottom: 0.2rem !important;
@@ -14,41 +12,59 @@
     margin-bottom: 0 !important;
     opacity: 0.85;
   }
-
-  /* Center the main content column beautifully on PC screens */
-  .main-content {
-    margin: 0 auto !important; /* Centers the whole content layout column on the page */
-    max-width: 64rem !important; /* Matches the exact width of your navigation bar */
-    padding: 2rem 1.5rem !important; /* Clean readable spacing around text */
+  .site-footer-credits {
+    display: none !important;
   }
 
-  /* Ensure text remains left-to-right aligned inside the centered block */
-  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content p, .main-content ul {
-    text-align: left;
-  }
-
-  /* New CSS Flexbox for professional mobile & desktop navigation */
+  /* --- Navigation Base --- */
   .nav-container {
     display: flex;
-    justify-content: center; /* Centers items close together instead of stretching them */
-    flex-wrap: wrap;
-    gap: 30px; /* Gives a clean, consistent spacing between links */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Forces links to respect the row rules */
     background: #f4f5f6;
-    padding: 12px 20px;
     border-radius: 6px;
-    margin: 0 auto 25px auto; /* Centers the whole container box on the page */
-    max-width: 64rem; /* Restricts the bar from stretching wider than the main text body */
+    margin: 0 auto 25px auto;
+    max-width: 64rem;
   }
-  
   .nav-container a {
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95rem;
     color: #1e6bb8 !important;
-    white-space: nowrap; /* Prevents single words from snapping in half */
+    text-align: center;
   }
 
-  .site-footer-credits {
-    display: none !important;
+  /* --- PC Screens Optimization --- */
+  @media (min-width: 768px) {
+    .main-content {
+      margin: 0 auto !important;
+      max-width: 64rem !important;
+      padding: 2rem 1.5rem !important;
+    }
+    .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content p, .main-content ul {
+      text-align: left;
+    }
+    .nav-container {
+      gap: 30px; /* Generous wide layout spacing for PC */
+      padding: 12px 20px;
+    }
+    .nav-container a {
+      font-size: 0.95rem;
+    }
+  }
+
+  /* --- Mobile Screens Optimization --- */
+  @media (max-width: 767px) {
+    .main-content {
+      padding: 20px 15px !important;
+      max-width: 100% !important;
+    }
+    .nav-container {
+      gap: 12px; /* Pulls links tighter together so they fit in one horizontal row */
+      padding: 10px 8px;
+    }
+    .nav-container a {
+      font-size: 0.82rem; /* Softly scales down text size so nothing breaks or overflows */
+    }
   }
 </style>
