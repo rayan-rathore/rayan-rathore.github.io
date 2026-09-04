@@ -3,10 +3,6 @@ layout: default
 title: Dashboard
 ---
 
-### [Dashboard](index.html) | [About Me](about.html) | [Projects](projects.html) | [Contact](contact.html)
-
----
-
 ## $ whoami
 I am a developer documenting my progress at the intersection of **Python, Machine Learning, and Cloud Security Infrastructure**. This space tracks my code tools, deep-dives, and hands-on projects.
 
