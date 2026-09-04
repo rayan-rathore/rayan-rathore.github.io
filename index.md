@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Home
+title: Dashboard
 ---
 
-# Welcome to My Python Journey
+## $ whoami
+I am a developer documenting my progress at the intersection of **Python, Machine Learning, and Cloud Security Infrastructure**. This space tracks my code tools, deep-dives, and hands-on projects.
 
-This is my personal domain where I document my code, my mistakes, and my progress transitioning from a beginner to a developer.
+---
 
-## Articles
+## // Security Tools & Write-ups
 {% for post in site.posts %}
-* **[{{ post.title }}]({{ post.url }})** — {{ post.date | date: "%B %d, %Y" }}
+* **[{{ post.title }}]({{ post.url }})** — *{{ post.date | date: "%B %d, %Y" }}*
 {% endfor %}
