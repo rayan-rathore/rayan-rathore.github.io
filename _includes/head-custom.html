@@ -15,13 +15,19 @@
     opacity: 0.85;
   }
 
-  /* Clean up the main text margins on mobile screens */
+  /* Center the main content column beautifully on PC screens */
   .main-content {
-    padding: 20px 15px !important;
-    max-width: 100% !important;
+    margin: 0 auto !important; /* Centers the whole content layout column on the page */
+    max-width: 64rem !important; /* Matches the exact width of your navigation bar */
+    padding: 2rem 1.5rem !important; /* Clean readable spacing around text */
   }
 
-    /* New CSS Flexbox for professional mobile & desktop navigation */
+  /* Ensure text remains left-to-right aligned inside the centered block */
+  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content p, .main-content ul {
+    text-align: left;
+  }
+
+  /* New CSS Flexbox for professional mobile & desktop navigation */
   .nav-container {
     display: flex;
     justify-content: center; /* Centers items close together instead of stretching them */
