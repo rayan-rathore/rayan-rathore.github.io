@@ -3,7 +3,12 @@ layout: default
 title: About Me
 ---
 
+### [Dashboard](/) &bull; [About Me](/about/) &bull; [Projects](/projects/) &bull; [Contact](/contact/)
+
+---
+
 ## $ cat about_me.txt
+
 
 I am an independent security researcher and Python developer focusing on automated threat detection, cloud posture management (CSPM), and security guardrails for Large Language Model (LLM) deployments.
 
