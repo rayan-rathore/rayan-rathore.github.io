@@ -21,16 +21,17 @@
     max-width: 100% !important;
   }
 
-  /* New CSS Flexbox for professional mobile navigation */
+    /* New CSS Flexbox for professional mobile & desktop navigation */
   .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Centers items close together instead of stretching them */
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px; /* Gives a clean, consistent spacing between links */
     background: #f4f5f6;
-    padding: 12px;
+    padding: 12px 20px;
     border-radius: 6px;
-    margin-bottom: 25px;
+    margin: 0 auto 25px auto; /* Centers the whole container box on the page */
+    max-width: 64rem; /* Restricts the bar from stretching wider than the main text body */
   }
   
   .nav-container a {
